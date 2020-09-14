@@ -1,3 +1,7 @@
+# Fork
+
+- ignores changes to `desired_capacity` because TargetTracking policies will change this value outside of Terraform.
+
 # AWS Auto Scaling Group (ASG) Terraform module
 
 Terraform module which creates Auto Scaling resources on AWS.
